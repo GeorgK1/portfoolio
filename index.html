@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Georg Kiviväli</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.2.10/firebase-app.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+  </head>
+  <body>
+    <div class="intro-wrapper">
+      <div class="header-wrapper">
+        <div class="header-text">
+          <h1 id = "name">I am Georg Kiviväli - <span id="profession-text"></span> </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+        <div class="column">
+            <div class="column-header">
+              <h1>About me</h1>
+            </div>
+            <div class="column-text-wrapper">
+                <h3 class="column-text">Where am I from?</h3>
+                <p class="column-text">I am from Tallinn, Estonia.</p>
+                <h3 class="column-text">How old am I?</h3>
+                <p class="column-text" id="age"></p>
+                <p class="column-text">
+                  My goal is to build versatile and reliable software
+                  while also keeping design in mind. Programming is my hobby
+                  and hopefully in the future my job. Mostly doing backend, but i like frontend aswell.
+                </p>
+
+                <h3 class="column-text">Contacts :</h3>
+
+                <p class="column-text"><i class="fa fa-envelope" style="font-size:24px;color:white;"></i> : georgkivivali7@gmail.com</p>
+                <p class="column-text"><i class="fa fa-facebook" style="font-size:24px;color:white;"></i> : https://www.facebook.com/georgendrik.kivivali/</p>
+                <p class="column-text"><i class="fa fa-linkedin" style="font-size:24px;color:white;"></i> : https://www.linkedin.com/in/georg-kiviv%C3%A4li-a086a5208/</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-header">
+              <h1>My skills</h1>
+            </div>
+            <div class="column-text-wrapper">
+              <h3 class="column-text">Fields i am confident in:</h3>
+                  <ul class = "skills-list">
+                      <li>Python</li>
+                      <li>Javascript</li>
+                      <li>Node.js</li>
+                      <li>React Native</li>
+                      <li>Git</li>
+                      <li>Jquery</li>
+                      <li>Linux</li>
+                      <li>HTML/CSS</li>
+                      <li>Expo</li>
+                  </ul>
+              <h3 class="column-text">Little to moderate experience:</h3>
+                  <ul class = "skills-list">
+                      <li>C/C++</li>
+                      <li>Golang</li>
+                      <li>Vue</li>
+                      <li>Docker</li>
+                      <li>Flutter</li>
+                      <li>Rust</li>
+                  </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-header">
+              <h1>My portfolio</h1>
+            </div>
+            <div class="column-text-wrapper">
+
+
+              <h3 class="column-text">Notable projects:</h3>
+              <ul>
+                <li>Jalgratta liiklustestid <a href="https://github.com/GeorgK1/jalgrattaapp">www.github.com/GeorgK1/jalgrattaapp</a></li>
+                <li>A full website for a beauty salon in Estonia  <a href="https://github.com/GeorgK1/ilusalong">www.github.com/GeorgK1/ilusalong</a> </li>
+                <li>A Twitter bot which posts ARK car exam times in real time  <a href="https://github.com/GeorgK1/Ark_Bot_Rewritten">www.github.com/GeorgK1/Ark_Bot_Rewritten</a> </li>
+                <li>This site <a href="https://github.com/GeorgK1/Ark_Bot_Rewritten">www.github.com/GeorgK1/Ark_Bot_Rewritten</a></li>
+                <li>You can find my full list of projects at   <a href="https://github.com/GeorgK1">www.github.com/GeorgK1</a></li>
+
+              </ul>
+
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js" charset="utf-8"></script>
+  </body>
+  <footer>
+    <p class="footer-text">Made with ❤️ by Georg Kiviväli</p>
+  </footer>
+</html>
